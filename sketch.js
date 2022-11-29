@@ -1,6 +1,7 @@
 const canvasWidth = window.innerWidth
 const canvasHeight = window.innerHeight
 let img, img2, mod, shirt
+let wg, bg, fg
 let imgs = [], imageCounter = 0
 let theta = 0
 
@@ -43,11 +44,37 @@ function setup() {
   createCanvas(canvasWidth, canvasHeight, WEBGL);
   angleMode(DEGREES)
   shirt = new Shirt(imgs[0], mod, -100, -100, 0, theta)
+    wg = loadImage ('https://res.cloudinary.com/painkillerkid/image/upload/v1669760216/wordstuff2_iqvi3a.png');
+  
+  fg = loadImage ('https://archive.org/download/spongedance-hd/spongedance-4.gif')
+  
+  bg = loadImage ('https://media.tenor.com/2roX3uxz_68AAAAM/cat-space.gif')
  
 }
 
 function draw() {
-  background('red'); 
+  background('rgb(211,246,0)'); 
+  
+    push();
+  noStroke();
+translate(30, 20, -3000);
+  texture(bg);
+  plane(20000, 20000);
+  pop();  
+  
+  push();
+  noStroke();
+translate(-1130, -200, -1000);
+  texture(fg);
+  plane(1000, 1000);
+  pop(); 
+  
+    push();
+  noStroke();
+translate(-1130, -200, -1000);
+  texture(wg);
+  plane(1000, 1000);
+  pop(); 
   audio.autoplay(true);
   audio.loop(true);
   if(clicked){
