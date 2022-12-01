@@ -1,7 +1,7 @@
 const canvasWidth = window.innerWidth
 const canvasHeight = window.innerHeight
 let img, img2, mod, shirt
-let wg, bg, fg
+let wg, bg, fg, money,venmo
 let imgs = [], imageCounter = 0
 let theta = 0
 
@@ -50,6 +50,9 @@ function setup() {
   
   bg = loadImage ('https://media.tenor.com/2roX3uxz_68AAAAM/cat-space.gif')
  
+    money = loadImage ('https://res.cloudinary.com/painkillerkid/image/upload/v1669858524/sendmemoney_schfml.png')
+  
+      venmo = loadImage ('https://res.cloudinary.com/painkillerkid/image/upload/v1669857644/MYVENMO_bkfuco.jpg')
 }
 
 function draw() {
@@ -61,6 +64,27 @@ translate(30, 20, -3000);
   texture(bg);
   plane(20000, 20000);
   pop();  
+  
+  push();
+  noStroke()
+    button = createButton('I want this Shirt');
+  button.position(1300, 650);
+  button.mousePressed(changeBG);
+  pop();
+  
+    push();
+  noStroke();
+translate(1300, -150, -1000);
+  texture(money);
+  plane(500, 500);
+  pop(); 
+  
+      push();
+  noStroke();
+translate(1300, -650, -1000);
+  texture(venmo);
+  plane(500, 500);
+  pop(); 
   
   push();
   noStroke();
@@ -85,6 +109,10 @@ translate(-1130, -200, -1000);
   theta++
 }
 
+function changeBG() {
+  let val = random(255);
+  background(val);
+}
 function mousePressed(){
 
    shirt.drag(mouseX, mouseY)
