@@ -35,18 +35,17 @@ class Shirt{
     pop()
   }
 
-  update(mX, mY){
+update(mX, mY){
     if(this.dragging){
       const currentMousePos = createVector(mX, mY, 0)
       //console.log(currentMousePos)
       const d = currentMousePos.dist(this.startDrag)
       if(currentMousePos.y > this.startDrag.y){
-        this.rotationVal = d
+        this.rotationVal += d
       }else{
-        this.rotationVal = d * -1
+        this.rotationVal += d * -1
       }
 
     }
 
   }
-}
