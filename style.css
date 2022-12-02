@@ -37,3 +37,19 @@ canvas {
 .topnav .icon {
   display: none;
 }
+
+.rotate-button{
+  width: 8rem;
+  height: 4rem;
+  border-radius: 0.8rem;
+  background-color: #0012FF;
+  color: white;
+}
+
+.unrotate-button{
+  width: 8rem;
+  height: 4rem;
+  border-radius: 0.8rem;
+  background-color: #e100ff;
+  color: white;
+}
