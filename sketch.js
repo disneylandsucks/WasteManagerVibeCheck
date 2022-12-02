@@ -118,8 +118,8 @@ translate(-1130, -200, -1000);
   texture(wg);
   plane(1000, 1000);
   pop(); 
-  //audio.autoplay(true);
-  //audio.loop(true);
+  audio.autoplay(true);
+  audio.loop(true);
   //console.log(theta)
   shirt.update(mouseX, mouseY, theta)
   
