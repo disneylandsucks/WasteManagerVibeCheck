@@ -41,7 +41,7 @@ update(mX, mY){
       //console.log(currentMousePos)
       const d = currentMousePos.dist(this.startDrag)
       if(currentMousePos.y > this.startDrag.y){
-        this.rotationVal += d
+        this.rotationVal = d
       }else{
         this.rotationVal += d * -1
       }
