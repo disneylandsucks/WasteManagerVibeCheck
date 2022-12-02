@@ -1,10 +1,12 @@
+
 const canvasWidth = window.innerWidth
 const canvasHeight = window.innerHeight
 let img, img2, mod, shirt
 let wg, bg, fg, money,venmo
 let imgs = [], imageCounter = 0
 let theta = 0
-
+let thetaInc = 0.01
+let rotating = false
 let clicked = false
 
 function preload(){
@@ -31,9 +33,18 @@ imgs[0]= loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v16657
     
   imgs[14] = loadImage(' https://res.cloudinary.com/painkillerkid/image/upload/v1666047243/thisisstupidshirt_wltht1.png')  
   
-//   imgs[15] = loadImage(' https://res.cloudinary.com/painkillerkid/image/upload/v1665960566/MXMTOON_Shirt_iqmgow.png')
-        
-  imgs[15] = loadImage(' https://www.pinkvilla.com/files/styles/amp_metadata_content_image/public/kevin-hart-wins-halloween-2019-by-dressing-up-as-frenemy-dwayne-johnson-the-rock-is-anything-but-impressed.jpg')
+  imgs[15] = loadImage(' https://res.cloudinary.com/painkillerkid/image/upload/v1669922268/Finished_House_Shirt_vx2eox.png')
+  
+    imgs[16] = loadImage(' https://res.cloudinary.com/painkillerkid/image/upload/v1669922268/fINISHED_HOUSE_sHIRT2_ncbeuk.png')
+  
+      imgs[17] = loadImage(' https://res.cloudinary.com/painkillerkid/image/upload/v1669922500/MiddleFinger_Finished_Shirt_mdd5jo.png')
+         imgs[18] = loadImage('  https://res.cloudinary.com/painkillerkid/image/upload/v1665961018/MXMTOON_Shirt2_jh50p3.png')
+
+  
+  imgs[19] = loadImage('  https://res.cloudinary.com/painkillerkid/image/upload/v1669922804/ChaeyoungFromTwice_ImTryingtoDate_vftqn8.png')
+  
+  
+  imgs[20] = loadImage(' https://www.pinkvilla.com/files/styles/amp_metadata_content_image/public/kevin-hart-wins-halloween-2019-by-dressing-up-as-frenemy-dwayne-johnson-the-rock-is-anything-but-impressed.jpg')
   
   
   mod = loadModel('Finished_Voldemort_3dthing.obj')
@@ -67,9 +78,17 @@ translate(30, 20, -3000);
   
   push();
   noStroke()
-    button = createButton('I want this Shirt');
+  button = createButton('');
+  if(rotating){
+    button.addClass('unrotate-button')
+    button.html('stop rotation')
+  }else{
+    button.addClass('rotate-button');
+    button.html('rotate shirt')    
+  }
+ 
   button.position(1300, 650);
-  button.mousePressed(changeBG);
+  button.mousePressed(setRotate);
   pop();
   
     push();
@@ -99,14 +118,23 @@ translate(-1130, -200, -1000);
   texture(wg);
   plane(1000, 1000);
   pop(); 
-  audio.autoplay(true);
-  audio.loop(true);
-  if(clicked){
-     shirt.update(mouseX, mouseY)
-  }
+  //audio.autoplay(true);
+  //audio.loop(true);
+  //console.log(theta)
+  shirt.update(mouseX, mouseY, theta)
+  
  
   shirt.render()
-  theta++
+  if(theta > 2 || theta < -2){
+    thetaInc*=-1
+  }
+  theta+=thetaInc
+
+}
+
+function setRotate(){
+  rotating = !rotating
+  shirt.toggleRotate()
 }
 
 function changeBG() {
@@ -164,3 +192,4 @@ function keyPressed(){
  // console.log(imageCounter)
   shirt.changeShirt(imgs[imageCounter])
 }
+
