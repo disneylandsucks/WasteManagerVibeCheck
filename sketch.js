@@ -76,20 +76,20 @@ translate(30, 20, -3000);
   plane(20000, 20000);
   pop();  
   
-  push();
-  noStroke()
-  button = createButton('');
-  if(rotating){
-    button.addClass('unrotate-button')
-    button.html('stop rotation')
-  }else{
-    button.addClass('rotate-button');
-    button.html('rotate shirt')    
-  }
+//   push();
+//   noStroke()
+//   button = createButton('');
+//   if(rotating){
+//     button.addClass('unrotate-button')
+//     button.html('stop rotation')
+//   }else{
+//     button.addClass('rotate-button');
+//     button.html('rotate shirt')    
+//   }
  
-  button.position(1300, 650);
-  button.mousePressed(setRotate);
-  pop();
+//   button.position(1300, 650);
+//   button.mousePressed(setRotate);
+//   pop();
   
     push();
   noStroke();
