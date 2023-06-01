@@ -44,7 +44,7 @@ imgs[0]= loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v16657
   imgs[19] = loadImage('  https://res.cloudinary.com/painkillerkid/image/upload/v1669922804/ChaeyoungFromTwice_ImTryingtoDate_vftqn8.png')
   
   
-  imgs[20] = loadImage(' https://www.pinkvilla.com/files/styles/amp_metadata_content_image/public/kevin-hart-wins-halloween-2019-by-dressing-up-as-frenemy-dwayne-johnson-the-rock-is-anything-but-impressed.jpg')
+//   imgs[20] = loadImage(' https://www.pinkvilla.com/files/styles/amp_metadata_content_image/public/kevin-hart-wins-halloween-2019-by-dressing-up-as-frenemy-dwayne-johnson-the-rock-is-anything-but-impressed.jpg')
   
   
   mod = loadModel('Finished_Voldemort_3dthing.obj')
