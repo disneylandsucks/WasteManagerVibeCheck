@@ -33,15 +33,15 @@ imgs[0]= loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v16657
     
   imgs[14] = loadImage(' https://res.cloudinary.com/painkillerkid/image/upload/v1666047243/thisisstupidshirt_wltht1.png')  
   
-  imgs[15] = loadImage(' https://res.cloudinary.com/painkillerkid/image/upload/v1669922268/Finished_House_Shirt_vx2eox.png')
+  imgs[15] = loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v1685669962/Finished_House_Shirt_vx2eox_oadxqu.png')
   
-    imgs[16] = loadImage(' https://res.cloudinary.com/painkillerkid/image/upload/v1669922268/fINISHED_HOUSE_sHIRT2_ncbeuk.png')
+//     imgs[16] = loadImage(' https://res.cloudinary.com/painkillerkid/image/upload/v1669922268/fINISHED_HOUSE_sHIRT2_ncbeuk.png')
   
-      imgs[17] = loadImage(' https://res.cloudinary.com/painkillerkid/image/upload/v1669922500/MiddleFinger_Finished_Shirt_mdd5jo.png')
+      imgs[17] = loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v1685669730/MiddleFinger_Finished_Shirt_mdd5jo_toypuq.png')
          imgs[18] = loadImage('  https://res.cloudinary.com/painkillerkid/image/upload/v1665961018/MXMTOON_Shirt2_jh50p3.png')
 
   
-  imgs[19] = loadImage('  https://res.cloudinary.com/painkillerkid/image/upload/v1669922804/ChaeyoungFromTwice_ImTryingtoDate_vftqn8.png')
+  imgs[16] = loadImage('  https://res.cloudinary.com/painkillerkid/image/upload/v1669922804/ChaeyoungFromTwice_ImTryingtoDate_vftqn8.png')
   
   
 //   imgs[20] = loadImage(' https://www.pinkvilla.com/files/styles/amp_metadata_content_image/public/kevin-hart-wins-halloween-2019-by-dressing-up-as-frenemy-dwayne-johnson-the-rock-is-anything-but-impressed.jpg')
