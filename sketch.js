@@ -50,11 +50,10 @@ imgs[0]= loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v16657
   imgs[20] = loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v1686164179/therealedshirt_nrnrtg.png')
       imgs[19] = loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v1686165632/YoshitomoNaraShirt_TheRealOne_b4p1qk.png')
     
-                 imgs[22] = loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v1686165632/YoshitomoNaraShirt_TheRealOne_b4p1qk.png')
 
                  imgs[23] = loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v1686166199/drawingshirt_cp21m2.png')
 
-                 imgs[24] = loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v1686166276/drawingshirt2_hmhxl7.png')
+                 imgs[22] = loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v1686166276/drawingshirt2_hmhxl7.png')
 
 
   
