@@ -51,9 +51,10 @@ imgs[0]= loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v16657
       imgs[19] = loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v1686165632/YoshitomoNaraShirt_TheRealOne_b4p1qk.png')
     
 
-//                  imgs[23] = loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v1686166199/drawingshirt_cp21m2.png')
 
                  imgs[22] = loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v1686186940/BanShirt_ft4ixj.png')
+    
+    imgs[23] = loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v1686353528/EmojiShirt_dznqmc.png')
 
 
   
