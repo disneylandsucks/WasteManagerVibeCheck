@@ -55,6 +55,11 @@ imgs[0]= loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v16657
                  imgs[22] = loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v1686186940/BanShirt_ft4ixj.png')
     
     imgs[23] = loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v1686353528/EmojiShirt_dznqmc.png')
+    
+        imgs[24] = loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v1686354834/SickShirt_dzm4fi.png')
+
+        imgs[25] = loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v1686354835/Face_Shirt_hqlnnb.png')
+
 
 
   
