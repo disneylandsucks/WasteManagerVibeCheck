@@ -37,7 +37,7 @@ imgs[0]= loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v16657
   
 //     imgs[16] = loadImage(' https://res.cloudinary.com/painkillerkid/image/upload/v1669922268/fINISHED_HOUSE_sHIRT2_ncbeuk.png')
   
-      imgs[17] = loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v1685669730/MiddleFinger_Finished_Shirt_mdd5jo_toypuq.png')
+      imgs[17] = loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v1686357463/Chaeyoung_Shirt_New_wwwkwj.png')
          imgs[18] = loadImage('  https://res.cloudinary.com/painkillerkid/image/upload/v1665961018/MXMTOON_Shirt2_jh50p3.png')
 
   
