@@ -31,7 +31,7 @@ imgs[0]= loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v16657
             
   imgs[13] = loadImage(' https://res.cloudinary.com/painkillerkid/image/upload/v1665978926/oski_peeing_shirt_xtvoe3.png')
     
-  imgs[14] = loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v1686358317/YourMomShirt_ot0y8m.png')  
+  imgs[14] = loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v1686360384/YourMomShirt_hfcy00.png')  
   
 //       imgs[14] = loadImage(' https://res.cloudinary.com/painkillerkid/image/upload/v1666047243/thisisstupidshirt_wltht1.png')  
 
