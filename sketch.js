@@ -31,8 +31,11 @@ imgs[0]= loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v16657
             
   imgs[13] = loadImage(' https://res.cloudinary.com/painkillerkid/image/upload/v1665978926/oski_peeing_shirt_xtvoe3.png')
     
-  imgs[14] = loadImage(' https://res.cloudinary.com/painkillerkid/image/upload/v1666047243/thisisstupidshirt_wltht1.png')  
+  imgs[14] = loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v1686358317/YourMomShirt_ot0y8m.png')  
   
+//       imgs[14] = loadImage(' https://res.cloudinary.com/painkillerkid/image/upload/v1666047243/thisisstupidshirt_wltht1.png')  
+
+    
   imgs[15] = loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v1685669962/Finished_House_Shirt_vx2eox_oadxqu.png')
   
 //     imgs[16] = loadImage(' https://res.cloudinary.com/painkillerkid/image/upload/v1669922268/fINISHED_HOUSE_sHIRT2_ncbeuk.png')
