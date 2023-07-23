@@ -65,9 +65,19 @@ imgs[0]= loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v16657
     
             imgs[26] = loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v1686361147/CalShirt_hjfhrx.png')
 
+            imgs[27] = loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v1690143028/BanTShirt_s4lsyn.png')
 
-  
-  
+            //   imgs[28] = loadImage('  https://res.cloudinary.com/painkillerkid/image/upload/v1690143028/BanTShirt_s4lsyn.png')
+    
+            // imgs[29] = loadImage('  https://res.cloudinary.com/painkillerkid/image/upload/v1690143028/BanTShirt_s4lsyn.png')
+    
+            // imgs[30] = loadImage('  https://res.cloudinary.com/painkillerkid/image/upload/v1690143028/BanTShirt_s4lsyn.png')
+    
+            // imgs[31] = loadImage('  https://res.cloudinary.com/painkillerkid/image/upload/v1690143028/BanTShirt_s4lsyn.png')
+    
+            // imgs[32] = loadImage('  https://res.cloudinary.com/painkillerkid/image/upload/v1690143028/BanTShirt_s4lsyn.png')
+    
+
   mod = loadModel('Finished_Voldemort_3dthing.obj')
 }
 
