@@ -94,7 +94,7 @@ function setup() {
  
     money = loadImage ('https://res.cloudinary.com/painkillerkid/image/upload/v1669858524/sendmemoney_schfml.png')
   
-      venmo = loadImage ('https://res.cloudinary.com/painkillerkid/image/upload/v1669857644/MYVENMO_bkfuco.jpg')
+      venmo = loadImage ('https://i0.wp.com/media0.giphy.com/media/J1p0Xb0MoyjZ0ID4mG/giphy.gif?resize=640%2C640&ssl=1&crop=1')
 }
 
 function draw() {
