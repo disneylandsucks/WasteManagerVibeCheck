@@ -13,7 +13,7 @@ function preload(){
     // audio = createAudio("Katy Perry - Firework (Acoustic Session) REMASTERED.mp3");
     audio = createAudio("Carly Rae Jepsen - Call Me Maybe (Audio) [TubeRipper.com].m4a");
 
-imgs[0]= loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v1691892168/Cloyne_Shirt_pkqo4w.png')
+imgs[0]= loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v1691893061/Cloyne_Shirt_mrpwd3.png')
 //  imgs[1] = loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v1665773929/voldemort_shirt_resized_ytqhl7.png') 
 //     imgs[2]= loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v1665773929/OSKI_BIRTHDAY_SHIRT3d_resized_or4zka.png')
 //  imgs[3] = loadImage('https://res.cloudinary.com/painkillerkid/image/upload/v1665773929/DemnaShirt_resized_ko0nu6.png') 
@@ -104,7 +104,7 @@ function draw() {
   noStroke();
 translate(30, 20, -3000);
   texture(bg);
-  plane(2000, 2000);
+  plane(7000, 7000);
   pop();  
   
 //   push();
