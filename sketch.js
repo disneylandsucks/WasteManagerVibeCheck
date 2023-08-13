@@ -86,7 +86,7 @@ function setup() {
   createCanvas(canvasWidth, canvasHeight, WEBGL);
   angleMode(DEGREES)
   shirt = new Shirt(imgs[0], mod, -100, -100, 0, theta)
-    wg = loadImage ('https://media3.giphy.com/media/Jrl4FlTaymFFbNiwU5/200w.gif?cid=790b7611qjdordrt42uk34g3ek8jplzsfxkvxqijqygvvbdi&ep=v1_gifs_search&rid=200w.gif&ct=g');
+    wg = loadImage ('https://gifdb.com/images/high/not-a-trash-can-t-dewey-pjwhh5qhwmwz9o4n.gif');
   
   fg = loadImage ('https://w7.pngwing.com/pngs/322/574/png-transparent-recycle-logo-recycling-symbol-plastic-recycling-recycling-miscellaneous-angle-triangle-thumbnail.png')
   
