@@ -88,9 +88,9 @@ function setup() {
   shirt = new Shirt(imgs[0], mod, -100, -100, 0, theta)
     wg = loadImage ('https://res.cloudinary.com/painkillerkid/image/upload/v1669760216/wordstuff2_iqvi3a.png');
   
-  fg = loadImage ('https://archive.org/download/spongedance-hd/spongedance-4.gif')
+  fg = loadImage ('https://w7.pngwing.com/pngs/322/574/png-transparent-recycle-logo-recycling-symbol-plastic-recycling-recycling-miscellaneous-angle-triangle-thumbnail.png')
   
-  bg = loadImage ('https://media.tenor.com/2roX3uxz_68AAAAM/cat-space.gif')
+  bg = loadImage ('https://media.tenor.com/ippC9hXxLXEAAAAd/trash-garbage.gif')
  
     money = loadImage ('https://res.cloudinary.com/painkillerkid/image/upload/v1669858524/sendmemoney_schfml.png')
   
